@@ -1,0 +1,13 @@
+%imgWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+%adaptImg {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  flex-grow: 0;
+}

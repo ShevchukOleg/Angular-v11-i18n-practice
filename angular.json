@@ -14,6 +14,15 @@
         }
       },
       "root": "",
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "en": "src/translate/messages.en.xlf",
+          "fr": "src/translate/messages.fr.xlf",
+          "uk": "src/translate/messages.ua.xlf",
+          "ru": "src/translate/messages.ru.xlf"
+        }
+      },
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
@@ -36,6 +45,26 @@
             "scripts": []
           },
           "configurations": {
+            "en": {
+              "localize": [
+                "en"
+              ]
+            },
+            "fr": {
+              "localize": [
+                "fr"
+              ]
+            },
+            "uk": {
+              "localize": [
+                "uk"
+              ]
+            },
+            "ru": {
+              "localize": [
+                "ru"
+              ]
+            },
             "production": {
               "fileReplacements": [
                 {
@@ -73,6 +102,18 @@
           "configurations": {
             "production": {
               "browserTarget": "Localization-i18n:build:production"
+            },
+            "en": {
+              "browserTarget": "Localization-i18n:build:en"
+            },
+            "fr": {
+              "browserTarget": "Localization-i18n:build:fr"
+            },
+            "uk": {
+              "browserTarget": "Localization-i18n:build:uk"
+            },
+            "ru": {
+              "browserTarget": "Localization-i18n:build:ru"
             }
           }
         },

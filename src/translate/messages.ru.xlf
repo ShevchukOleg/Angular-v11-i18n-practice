@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="SiteName" datatype="html">
+        <source> Site name </source>
+        <target>Имя сайта</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header-nav/header-nav.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a0843de0a64adcc7ee6a946408b6876cd8abdcae" datatype="html">
+        <source>English</source>
+        <target>Ангдийский</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header-nav/header-nav.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="11ffc72f4c961924b296933cd09e000f9acb206c" datatype="html">
+        <source>Franch</source>
+        <target>Французский</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header-nav/header-nav.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1dd52431ef154da92bff7ad9a46b6aceff223c51" datatype="html">
+        <source>Ukrainian</source>
+        <target>Украинский</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header-nav/header-nav.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9188bd2a6f94bfaa21d2ce11018dae8f28a652c5" datatype="html">
+        <source>Russian</source>
+        <target>Русский</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header-nav/header-nav.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="articleTitle" datatype="html">
+        <source>US cyber-attack: US energy department confirms it was hit by Sunburst hack </source>
+        <target>
+          Кибератака США: министерство энергетики США подтвердило, что на него взломали Sunburst
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main-page/main-page.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+        <note priority="1" from="description">some descrption </note>
+        <note priority="1" from="meaning">some meaning</note>
+      </trans-unit>
+      <trans-unit id="0a375418780baa58a4dd3371e68baeda0dd67488" datatype="html">
+        <source>cyber attack</source>
+        <target>
+          кибератака
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main-page/main-page.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9af5e50c874d72ee4ddcaa2aa7c8269d140b4a19" datatype="html">
+        <source>The FBI is among those investigating the hacking campaign</source>
+        <target>
+          ФБР среди тех, кто расследует хакерскую кампанию.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main-page/main-page.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="articleSubTitle" datatype="html">
+        <source> The US energy department is the latest agency to confirm it has been breached in what is being described as the worst-ever hack on the US government. </source>
+        <target>
+          Министерство энергетики США стало последним агентством, подтвердившим, что его взломали в ходе того, что описывается как худшая в истории взлома правительства США.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main-page/main-page.component.html</context>
+          <context context-type="linenumber">20,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="36f2e0584fd2219055fe81ff5aec3bdfe9f178d9" datatype="html">
+        <source> The department is responsible for managing US nuclear weapons, but said the arsenal&apos;s security had not been compromised. Tech giant Microsoft also said on Thursday that it had found malicious software in its systems. Many suspect the Russian government is responsible. It has denied any role. The US treasury and commerce departments are among the other targets of the sophisticated, months-long breach, which was first acknowledged by officials on Sunday. </source>
+        <target>
+          Управление отвечает за управление ядерным оружием США, но заявило, что безопасность арсенала не была нарушена. Технический гигант Microsoft также заявил в четверг, что обнаружил в своих системах вредоносное ПО. Многие подозревают, что ответственность за это несет правительство России. Он отрицал какую-либо роль. Казначейство и министерство торговли США являются одной из других целей изощренного, продолжавшегося несколько месяцев, взлома, о котором официальные лица впервые заявили в воскресенье.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main-page/main-page.component.html</context>
+          <context context-type="linenumber">24,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6bdfd27e0f94117a9d30905b01ab544d9273db5e" datatype="html">
+        <source> How has the US government responded? </source>
+        <target>
+          Как отреагировало правительство США?
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main-page/main-page.component.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="11b5155930fe0c2e479b64bf353af1d2ae265b77" datatype="html">
+        <source> President Donald Trump is yet to comment on the cyber-attacks. Meanwhile, US President-elect Joe Biden has vowed to make cyber-security a &quot;top priority&quot; of his administration. &quot;We need to disrupt and deter our adversaries from undertaking significant cyber-attacks in the first place,&quot; he said. &quot;We will do that by, among other things, imposing substantial costs on those responsible for such malicious attacks, including in coordination with our allies and partners.&quot; America&apos;s top cyber agency, the Cybersecurity and Infrastructure Agency (Cisa), gave a stark warning on Thursday, saying that addressing the intrusion would be &quot;highly complex and challenging&quot;. It said &quot;critical infrastructure&quot; had been damaged, federal agencies and private sector companies compromised, and that the damage posed a &quot;grave threat&quot;. </source>
+        <target>
+          Президент Дональд Трамп пока не прокомментировал кибератаки. Между тем избранный президент США Джо Байден пообещал сделать кибербезопасность «главным приоритетом». его администрации. «В первую очередь нам нужно помешать и удержать наших противников от проведения серьезных кибератак», - сказал он. он сказал. «Мы сделаем это, среди прочего, наложив существенные расходы на тех, кто несет ответственность за такие злонамеренные атаки, в том числе в координации с нашими союзниками и партнерами». Ведущее кибер-агентство Америки, Агентство кибербезопасности и инфраструктуры (Cisa), сделало в четверг резкое предупреждение, заявив, что противодействие вторжению будет "очень сложным и трудным". В нем говорилось: «Критическая инфраструктура»; был нанесен ущерб, федеральные агентства и компании частного сектора скомпрометированы, и этот ущерб представляет собой "серьезную угрозу".
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main-page/main-page.component.html</context>
+          <context context-type="linenumber">34,48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f1a99f609c49f601ebcd07ca2bfce496b795691e" datatype="html">
+        <source> SolarWinds: почему взлом Sunburst важен </source>
+        <target>
+          SolarWinds: почему взлом Sunburst важен
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main-page/main-page.component.html</context>
+          <context context-type="linenumber">52,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1f803d98de08a11f14b0822e8e7ec34fe3e50e67" datatype="html">
+        <source> More US government agencies hacked </source>
+        <target>
+          Взломано больше правительственных агентств США
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main-page/main-page.component.html</context>
+          <context context-type="linenumber">57,58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="098c97da17899322c453364357d73bc75ee64394" datatype="html">
+        <source> The hack began in at least March 2020, and those responsible had &quot;demonstrated patience, operational security, and complex tradecraft&quot;, the Cisa said. The agency did not identify what information had been stolen or exposed. Addressing the attack on the energy department, spokeswoman Shaylyn Hynes confirmed that it was responding to a cyber breach but said &quot;the malware has been isolated to business networks only&quot;. She said security functions at the National Nuclear Security Administration (NNSA), which oversees US nuclear weapons, had not been affected. </source>
+        <target>
+          Взлом начался как минимум в марте 2020 года, и ответственные за это «продемонстрировали терпение, операционную безопасность и сложную торговлю», сообщает Cisa. Агентство не установило, какая информация была украдена или разоблачена. Обращаясь к атаке на министерство энергетики, пресс-секретарь Шейлин Хайнс подтвердила, что оно реагировало на кибербезопасность, но заявила, что «вредоносная программа была изолирована только для бизнес-сетей». Она сказала, что функции безопасности в Национальном управлении ядерной безопасности (NNSA), которое контролирует ядерное оружие США, не пострадали.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main-page/main-page.component.html</context>
+          <context context-type="linenumber">62,72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="FeedbackTitle" datatype="html">
+        <source>Please leave feedback</source>
+        <target>Пожалуйста, оставьте отзыв</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main-page/main-page.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="533b2b9a76ee1335cb44c01f0bfd50d43e9400b0" datatype="html">
+        <source>Your name</source>
+        <target>Ваше имя</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main-page/main-page.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="50d1a99ad3961450add20367360289b50373f62e" datatype="html">
+        <source>Your comment</source>
+        <target>Ваш комментарий</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main-page/main-page.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a1d164a65ed272b85c3be260f6709237e5bcc2b8" datatype="html">
+        <source>Vote</source>
+        <target>Мнение</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main-page/main-page.component.html</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

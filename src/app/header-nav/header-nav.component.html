@@ -1,0 +1,22 @@
+<header>
+  <div class="row">
+    <div class="col-6 namePart">
+      <h1 i18n="@@SiteName">
+        Site name
+      </h1>
+    </div>
+    <div class="col-6 navPart">
+      <nav class="languages">
+        <button (click)="toggleNavMenu()">{{currentLanguage}} <span *ngIf="!chooseLanguage">&#11015;</span></button>
+        <div class="select_Menu" [class.hidden]="!chooseLanguage">
+          <div class="menuPanel">
+            <a i18n href="/en">English</a>
+            <a i18n href="/fr">Franch</a>
+            <a i18n href="/uk">Ukrainian</a>
+            <a i18n href="/ru">Russian</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>

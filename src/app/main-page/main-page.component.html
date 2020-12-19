@@ -1,0 +1,100 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12 pt-16">
+      <article>
+        <h2 i18n="some meaning|some descrption @@articleTitle">US cyber-attack: US energy department confirms it was hit
+          by Sunburst hack
+        </h2>
+        <figure>
+          <div class="imgWrapper">
+            <img i18n-alt src="https://c.files.bbci.co.uk/90E6/production/_116149073_hi064618850.jpg" alt=""
+              srcset="https://ichef.bbci.co.uk/news/240/cpsprodpb/90E6/production/_116149073_hi064618850.jpg 240w, https://ichef.bbci.co.uk/news/320/cpsprodpb/90E6/production/_116149073_hi064618850.jpg 320w, https://ichef.bbci.co.uk/news/480/cpsprodpb/90E6/production/_116149073_hi064618850.jpg 480w, https://ichef.bbci.co.uk/news/624/cpsprodpb/90E6/production/_116149073_hi064618850.jpg 624w, https://ichef.bbci.co.uk/news/800/cpsprodpb/90E6/production/_116149073_hi064618850.jpg 800w, https://ichef.bbci.co.uk/news/976/cpsprodpb/90E6/production/_116149073_hi064618850.jpg 976w"
+              alt="cyber attack">
+          </div>
+          <figcaption>
+            <span i18n>The FBI is among those investigating the hacking campaign</span>
+          </figcaption>
+        </figure>
+        <div class="textBlock">
+          <p i18n="@@articleSubTitle" class="accent">
+            The US energy department is the latest agency to confirm it has been breached in what is being described as
+            the worst-ever hack on the US government.
+          </p>
+          <p i18n>
+            The department is responsible for managing US nuclear weapons, but said the arsenal's security had not been
+            compromised. Tech giant Microsoft also said on Thursday that it had found malicious software in its systems.
+            Many suspect the Russian government is responsible. It has denied any role. The US treasury and commerce
+            departments are among the other targets of the sophisticated, months-long breach, which was first
+            acknowledged by officials on Sunday.
+          </p>
+          <h3 i18n>
+            How has the US government responded?
+          </h3>
+          <p i18n>
+            President Donald Trump is yet to comment on the cyber-attacks.
+
+            Meanwhile, US President-elect Joe Biden has vowed to make cyber-security a "top priority" of his
+            administration.
+
+            "We need to disrupt and deter our adversaries from undertaking significant cyber-attacks in the first
+            place," he said. "We will do that by, among other things, imposing substantial costs on those responsible
+            for such malicious attacks, including in coordination with our allies and partners."
+
+            America's top cyber agency, the Cybersecurity and Infrastructure Agency (Cisa), gave a stark warning on
+            Thursday, saying that addressing the intrusion would be "highly complex and challenging".
+
+            It said "critical infrastructure" had been damaged, federal agencies and private sector companies
+            compromised, and that the damage posed a "grave threat".
+          </p>
+          <ul class="externalLinks">
+            <li>
+              <a i18n href="https://www.bbc.co.uk/news/technology-55321643">
+                SolarWinds: Why the Sunburst hack matters
+              </a>
+            </li>
+            <li>
+              <a i18n href="https://www.bbc.co.uk/news/technology-55318815">
+                More US government agencies hacked
+              </a>
+            </li>
+          </ul>
+          <p i18n>
+            The hack began in at least March 2020, and those responsible had "demonstrated patience, operational
+            security, and complex tradecraft", the Cisa said.
+
+            The agency did not identify what information had been stolen or exposed.
+
+            Addressing the attack on the energy department, spokeswoman Shaylyn Hynes confirmed that it was responding
+            to a cyber breach but said "the malware has been isolated to business networks only".
+
+            She said security functions at the National Nuclear Security Administration (NNSA), which oversees US
+            nuclear weapons, had not been affected.
+          </p>
+        </div>
+      </article>
+      <div class="feedback">
+        <form [formGroup]="feedBackForm" (ngSubmit)="sendReview()">
+          <h3 i18n="@@FeedbackTitle" class="formTitle">Please leave feedback</h3>
+          <div class="formFild inputText">
+            <input i18n-placeholder formControlName="userName" type='text' name="User" required placeholder="Your name">
+          </div>
+          <div class="formFild inputTextarea">
+            <textarea i18n-placeholder formControlName="comment" name="Comment" wrap="soft" required
+              placeholder="Your comment"></textarea>
+          </div>
+          <div class="radioButtonGroup">
+            <div class="radioContainer" *ngFor="let opinion of userViews; let i =  index">
+              <div class="radioOuter"></div>
+              <div class="radioiner"></div>
+              <label>
+                <input formControlName="opinion" type="radio" name="opinion" value="{{opinion.sense}}">
+                {{opinion.abrev}}
+              </label>
+            </div>
+          </div>
+          <button i18n class="btn" [disabled]="feedBackForm.invalid" type="submit">Vote</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

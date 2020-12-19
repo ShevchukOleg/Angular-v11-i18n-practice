@@ -1,1 +1,123 @@
-/* You can add global styles to this file, and also import other style files */
+// Reset
+html, body, zhl-root, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+caption, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: Lato, sans-serif;
+}
+
+a, button, input, select {
+  outline: none !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, pre, span, li, img, mat-icon, td {
+  user-select: none;
+}
+
+// h1, h2, h3, h4, h5, h6 {
+//   width: 100%;
+// }
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px
+}
+
+.row {
+  display: flex;
+  margin: 0 -16px;
+  flex-wrap: wrap;
+  overflow: visible;
+}
+
+.col-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.col-4 {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+}
+
+.col-5 {
+  flex: 0 0 41.6666%;
+  max-width: 41.6666%;
+}
+
+
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  width:50%;
+  overflow: visible;
+}
+
+.col-7 {
+  flex: 0 0 58.3333%;
+  max-width: 58.3333%;
+}
+
+.col-8 {
+  flex: 0 0 66.6666%;
+  max-width: 66.6666%;
+}
+
+.col-9 {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.pt-16 {
+  padding-top: 16px;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 64px;
+  margin: 8px 8px 8px 0;
+  padding: 0 16px;
+  background-color: #a9b1dd;
+  position: relative;
+  user-select: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  font: {
+    family: Roboto,Helvetica Neue,sans-serif;
+    size: 14px;
+    weight: 500;
+  }
+  white-space: nowrap;
+  line-height: 36px;
+  text-decoration: none;
+  vertical-align: baseline;
+  text-align: center;
+  box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+  &.main {
+    background-color: #3f51b5;
+  }
+  transform: translate3d(0, 0, 0);
+  transition: background 400ms cubic-bezier(0.25, 0.8, 0.25, 1),box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+}
